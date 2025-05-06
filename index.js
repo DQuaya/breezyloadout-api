@@ -40,16 +40,16 @@ app.get('/guns', (req, res) => {
   
   app.get('/guns/:id', (req, res) => {
     const id = parseInt(req.params.id);
-    const gun = Guns.find((gun) => gun.id === id);
+    const guns = Guns.find((guns) => guns.id === id);
   
-    if (!gun) {
+    if (!guns) {
       res.status(404).json({ error: 'Gun not found' });
     } else {
-      res.json(gun);
+      res.json(guns);
     }
   });
   
-  app.post('/gun', (req, res) => {
+  app.post('/guns', (req, res) => {
     const newGun = req.body;
     if (!newGun.id || !newGun.name) {
       return res.status(400).json({ error: 'Missing required fields' });
@@ -58,22 +58,27 @@ app.get('/guns', (req, res) => {
     res.status(201).json(newGun);
   });
   
-  app.put('/gun/:id', (req, res) => {
+  app.put('/guns/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const updatedGun = req.body;
   
-    const gunIndex = Guns.findIndex((gun) => gun.id === id);
+    const gunIndex = Guns.findIndex((guns) => guns.id === id);
     if (gunIndex === -1) {
       res.status(404).json({ error: 'Gun not found' });
     } else {
-      Guns[shoeIndex] = updatedGun;
+      Guns[gunIndex] = updatedGun;
       res.json(updatedGun);
     }
   });
+
+  const exists = Guns.find(guns => guns.id === newGun.id);
+if (exists) {
+  return res.status(400).json({ error: 'Gun with this ID already exists' });
+}
   
-  app.delete('/gun/:id', (req, res) => {
+  app.delete('/guns/:id', (req, res) => {
     const id = parseInt(req.params.id);
-    const gunIndex = Guns.findIndex((gun) => gun.id === id);
+    const gunIndex = Guns.findIndex((guns) => guns.id === id);
   
     if (gunIndex === -1) {
       res.status(404).json({ error: 'Gun not found' });
@@ -82,6 +87,7 @@ app.get('/guns', (req, res) => {
       res.status(204).send();
     }
   });
+  
   
   const PORT = process.env.PORT || 3000;
   app.listen(PORT, () => {
