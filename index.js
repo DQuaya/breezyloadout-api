@@ -78,6 +78,7 @@ app.get('/guns', (req, res) => {
     }
   });
 
+  const newGun = { id: 1, name: "AK-47" };
   const exists = Guns.find(guns => guns.id === newGun.id);
 if (exists) {
   return res.status(400).json({ error: 'Gun with this ID already exists' });
