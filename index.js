@@ -51,9 +51,16 @@ app.get('/guns', (req, res) => {
   
   app.post('/guns', (req, res) => {
     const newGun = req.body;
+  
     if (!newGun.id || !newGun.name) {
       return res.status(400).json({ error: 'Missing required fields' });
     }
+  
+    const exists = Guns.find(gun => gun.id === newGun.id);
+    if (exists) {
+      return res.status(400).json({ error: 'Gun with this ID already exists' });
+    }
+  
     Guns.push(newGun);
     res.status(201).json(newGun);
   });
