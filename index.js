@@ -6,30 +6,425 @@ app.use(cors());
 app.use(express.json());
 
 const Guns = [
-    { id: 1, type: 'Assault Rifle', name: 'CR 56-AMAX', attachments:'Optic: KEPLER MICROFLEX, Muzzle: COMPENSATOR, Barrel: REINFORCED BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: EXTENDED MAG I, Rear Grip: COMMANDO GRIP, Stock: INFILTRATOR STOCK, Fire Mods: RAPID FIRE',image:'https://img.wzstats.gg/cr-56-amax-wzstats-aec746/gunFullDisplay', video: ''},
-    { id: 2, type: 'Assault Rifle', name: 'KRIG C', attachments:'Optic: ACCU-SPOT REFLEX, Muzzle: COMPENSATOR, Barrel: REINFORCED BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: EXTENDED MAG II', image:'https://img.wzstats.gg/krig-c/gunFullDisplay', video:''},
-    { id: 3, type: 'Assault Rifle', name: 'Kilo 141', attachments:'Optic: WILLIS 3X, Muzzle: MONOLITHIC SUPPRESSOR, Barrel: REINFORCED BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: EXTENDED MAG II', image:'https://img.wzstats.gg/kilo-141-wzstats-def6e3/gunFullDisplay', video:''},
-    { id: 4, type: 'Assault Rifle', name: 'XM4', attachments:'Optic: WILLIS 3X, Muzzle: COMPENSATOR, Barrel: REINFORCED BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: EXTENDED MAG III', image:'https://img.wzstats.gg/xm4-wzstats-4442f0/gunFullDisplay', video:''},
-    { id: 5, type: 'Assault Rifle', name: 'AMES 85', attachments:'Optic: WILLIS 3X, Muzzle: MONOLITHIC SUPPRESSOR, Barrel: GAIN-TWIST BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: EXTENDED MAG II', image:'https://img.wzstats.gg/ames-85-wzstats-90be18/gunFullDisplay', video:''},
-    { id: 6, type: 'Assault Rifle', name: 'AS VAL', attachments:'Barrel: SUPPRESSED REINFORCED BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: EXTENDED MAG III, Rear Grip: CQB GRIP, Fire Mods: RECOIL SPRINGS', image:'https://img.wzstats.gg/as-val-wzstats-2c0cf9/gunFullDisplay', video:''},
-    { id: 7, type: 'Assault Rifle', name: 'MODEL L', attachments:'Optic: WILLIS 3X, Muzzle: COMPENSATOR, Barrel: GAIN-TWIST BARREL, Underbarrel:VERTICAL FOREGRIP, Magazine: EXTENDED MAG II', image:'https://img.wzstats.gg/model-l-wzstats-4c6836/gunFullDisplay', video:''},
-    { id: 8, type: 'Assault Rifle', name: 'Cypher 091', attachments:'Optic: WILLIS 3X, Muzzle: COMPENSATOR, Barrel: GAIN-TWIST BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: EXTENDED MAG II', image:'https://img.wzstats.gg/cypher-091-wzstats-87267e/gunFullDisplay', video:''},
-    { id: 9, type: 'Assault Rifle', name: 'AK-74', attachments:'Optic: VOLZHSKIY REFLEX, Muzzle: COMPENSATOR, Barrel: GAIN-TWIST BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: EXTENDED MAG III',image:'https://img.wzstats.gg/ak-74-wzstats-0ade1e/gunFullDisplay', video:''},
-    { id: 10, type: 'Assault Rifle', name: 'GPR 91', attachments:'Optic: VOLZHSKIY REFLEX, Muzzle: MONOLITHIC SUPPRESSOR, Barrel: REINFORCED BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: EXTENDED MAG II', image:'https://img.wzstats.gg/gpr-91-wzstats-48be54/gunFullDisplay', video:''},
-    { id: 11, type: 'Assault Rifle', name: 'GOBLIN MK2', attachments:'Optic: WILLIS 3X, Muzzle: COMPENSATOR, Barrel: REINFORCED BARREL, Magazine: EXTENDED MAG II, Fire Mods: RECOIL SPRINGS', image:'https://img.wzstats.gg/goblin-mk-2-wzstats-60af2f/gunFullDisplay', video:''},
-    { id: 12, type: 'SMG', name: 'KSV', attachments:'Muzzle: COMPENSATOR, Barrel: LONG BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: EXTENDED MAG II, Rear Grip: COMMANDO GRIP',image:'https://img.wzstats.gg/ksv-wzstats-890357/gunFullDisplay', video: ''},
-    { id: 13, type: 'SMG', name: 'LADRA', attachments:'Muzzle: COMPENSATOR, Barrel: LONG BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: EXTENDED MAG II, Rear Grip: COMMANDO GRIP', image:'https://img.wzstats.gg/ladra-wzstats-9921c1/gunFullDisplay', video:''},
-    { id: 14, type: 'SMG', name: 'C9', attachments:'Muzzle: COMPENSATOR, Barrel: LONG BARREL, Underbarrel: RANGER FOREGRIP, Magazine: EXTENDED MAG II, Rear Grip: COMMANDO GRIP', image:'https://img.wzstats.gg/c9-wzstats-a63e4b/gunFullDisplay', video:''},
-    { id: 15, type: 'SMG', name: 'JACKAL PDW', attachments:'Muzzle: SUPPRESSOR, Barrel: LONG BARREL, Underbarrel: RANGER FOREGRIP, Magazine: EXTENDED MAG II, Rear Grip: ERGONOMIC GRIP', image:'https://img.wzstats.gg/jackal-pdw-wzstats-0bf541/gunFullDisplay', video:''},
-    { id: 16, type: 'SMG', name: 'PPSH-41', attachments:'Muzzle: SUPPRESSOR, Barrel: LONG BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: EXTENDED MAG II, Stock: AGILITY STOCK', image:'https://img.wzstats.gg/ppsh-41-wzstats-804aa6/gunFullDisplay', video:''},
-    { id: 17, type: 'SMG', name: 'PP-919', attachments:'Muzzle: SUPPRESSOR, Barrel: LONG BARREL, Magazine: FAST MAG I, Rear Grip: ERGONOMIC GRIP, Stock: INFILTRATOR STOCK', image:'https://img.wzstats.gg/pp-919-wzstats-ebc054/gunFullDisplay', video:''},
-    { id: 18, type: 'SMG', name: 'TANTO .22', attachments:'Muzzle: SUPPRESSOR, Barrel: LONG BARREL, Underbarrel: RANGER FOREGRIP, Magazine: EXTENDED MAG I, Rear Grip: ERGONOMIC GRIP', image:'https://img.wzstats.gg/tanto-22/gunFullDisplay', video:''},
-    { id: 19, type: 'SMG', name: 'SAUG', attachments:'Muzzle: COMPENSATOR, Barrel: LONG BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: EXTENDED MAG II, Rear Grip: COMMANDO GRIP', image:'https://img.wzstats.gg/saug-wzstats-ea2c89/gunFullDisplay', video:''},
-    { id: 20, type: 'SMG', name: 'AK-74', attachments:'Optic: VOLZHSKIY REFLEX, Muzzle: COMPENSATOR, Barrel: GAIN-TWIST BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: EXTENDED MAG III', image:'https://img.wzstats.gg/ak-74-wzstats-0ade1e/gunFullDisplay', video:''},
-    { id: 21, type: 'LMG', name: 'FENG 82', attachments:'Optic: OTERO RED DOT, Muzzle: COMPENSATOR, Barrel: GAIN-TWIST BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: EXTENDED MAG I', image:'https://img.wzstats.gg/feng-82/gunFullDisplay', video:''},
-    { id: 22, type: 'LMG', name: 'XMG', attachments:'Optic: VOLZHSKIY REFLEX, Muzzle: MONOLITHIC SUPPRESSOR, Barrel: REINFORCED BARREL, Underbarrel: VERTICAL FOREGRIP, Stock: BUFFER WEIGHT STOCK', image:'https://img.wzstats.gg/xmg-wzstats-608a6f/gunFullDisplay', video:''},
-    { id: 23, type: 'LMG', name: 'PU-21', attachments:'Optic: VOLZHSKIY REFLEX, Muzzle: COMPENSATOR, Barrel: REINFORCED BARREL, Underbarrel: VERTICAL FOREGRIP, Fire Mods: RECOIL SPRINGS', image:'https://img.wzstats.gg/pu-21/gunFullDisplay', video:''},
-    { id: 24, type: 'LMG', name: 'GPMG-7', attachments:'Optic: VOLZHSKIY REFLEX, Muzzle: COMPENSATOR, Barrel: REINFORCED BARREL, Underbarrel: VERTICAL FOREGRIP, Magazine: BELT-FED, Rear Grip: QUICKDRAW GRIP, Stock: INFILTRATOR STOCK, Fire Mods: 7.62 NATO OVERPRESSURED', image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay', video:''},
+    { 
+      id: 1, 
+      type: 'Assault Rifle', 
+      name: 'M15 MOD O', 
+      image:'https://img.wzstats.gg/cr-56-amax-wzstats-aec746/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      }
+    },
+    { 
+      id: 2, 
+      name: 'AK-27', 
+      type: 'Assault Rifle', 
+      image:'https://img.wzstats.gg/krig-c/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      }    
+    },
+    { 
+      id: 3, 
+      name: 'MXR-17', 
+      type: 'Assault Rifle', 
+      image:'https://img.wzstats.gg/kilo-141-wzstats-def6e3/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 4, 
+      name: 'X9 Maverick', 
+      type: 'Assault Rifle', 
+      image:'https://img.wzstats.gg/xm4-wzstats-4442f0/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 5, 
+      name: 'Maddox RFB', 
+      type: 'Assault Rifle', 
+      image:'https://img.wzstats.gg/ames-85-wzstats-90be18/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 6, 
+      name: 'DS20 Mirage', 
+      type: 'Assault Rifle', 
+      image:'https://img.wzstats.gg/as-val-wzstats-2c0cf9/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 7, 
+      name: 'Peacekeeper MK1', 
+      type: 'Assault Rifle', 
+      image:'https://img.wzstats.gg/model-l-wzstats-4c6836/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 8, 
+      name: 'Ryden 45k', 
+      type: 'SMG', 
+      image:'https://img.wzstats.gg/cypher-091-wzstats-87267e/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 9, 
+      name: 'RK-9', 
+      type: 'SMG', 
+      image:'https://img.wzstats.gg/ak-74-wzstats-0ade1e/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 10,
+      name: 'Razor 9MM', 
+      type: 'SMG',
+      image:'https://img.wzstats.gg/gpr-91-wzstats-48be54/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 11,
+      name: 'Kogot-7', 
+      type: 'SMG',
+      image:'https://img.wzstats.gg/goblin-mk-2-wzstats-60af2f/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 12,
+      name: 'Dravec 45', 
+      type: 'SMG', 
+      image:'https://img.wzstats.gg/ksv-wzstats-890357/gunFullDisplay', 
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 13,
+      name: 'Carbon 57', 
+      type: 'SMG', 
+      image:'https://img.wzstats.gg/ladra-wzstats-9921c1/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 14,
+      name: 'MPC-25', 
+      type: 'SMG', 
+      image:'https://img.wzstats.gg/c9-wzstats-a63e4b/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 15,
+      name: 'M10 Breacher', 
+      type: 'Shotgun', 
+      image:'https://img.wzstats.gg/jackal-pdw-wzstats-0bf541/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 16,
+      name: 'Echo 12', 
+      type: 'Shotgun', 
+      image:'https://img.wzstats.gg/ppsh-41-wzstats-804aa6/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 17,
+      name: 'Akita', 
+      type: 'Shotgun', 
+      image:'https://img.wzstats.gg/pp-919-wzstats-ebc054/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 18,
+      name: 'MK.78', 
+      type: 'LMG', 
+      image:'https://img.wzstats.gg/tanto-22/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 19,
+      name: 'Sokol 545', 
+      type: 'LMG', 
+      image:'https://img.wzstats.gg/saug-wzstats-ea2c89/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 20,
+      name: 'XM325', 
+      type: 'LMG', 
+      image:'https://img.wzstats.gg/ak-74-wzstats-0ade1e/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 21,
+      name: 'M8A1', 
+      type: 'Marksman Rifle', 
+      image:'https://img.wzstats.gg/feng-82/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 22,
+      name: 'Warden 308', 
+      type: 'Marksman Rifle', 
+      image:'https://img.wzstats.gg/xmg-wzstats-608a6f/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 23,
+      name: 'M34 Novaline', 
+      type: 'Marksman Rifle', 
+      image:'https://img.wzstats.gg/pu-21/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 24,
+      name: 'VS Recon', 
+      type: 'Sniper Rifle', 
+      image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+        } 
+      },
+      { 
+      id: 25,
+      name: 'Shadow SK', 
+      type: 'Sniper Rifle', 
+      image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+        } 
+    },
+    { 
+      id: 26,
+      name: 'XR-3 Ion', 
+      type: 'Sniper Rifle', 
+      image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+      
+     
+      
 
   ];
   
@@ -78,11 +473,7 @@ app.get('/guns', (req, res) => {
     }
   });
 
-  const newGun = { };
-  const exists = Guns.find(guns => guns.id === newGun.id);
-if (exists) {
-  return res.status(400).json({ error: 'Gun with this ID already exists' });
-}
+
   
   app.delete('/guns/:id', (req, res) => {
     const id = parseInt(req.params.id);
@@ -101,5 +492,6 @@ if (exists) {
   app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
   });
+  
 
 //   coded by DonQuaya
