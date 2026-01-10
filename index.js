@@ -29,9 +29,9 @@ const Guns = [
       image:'https://img.wzstats.gg/krig-c/gunFullDisplay',
       attachments: {
         optic: 'KEPLER MICROFLEX', 
-        muzzle: 'COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'VERTICAL FOREGRIP', 
+        muzzle: 'EMT3 Compensator', 
+        barrel: '14" Prism Light Barrel', 
+        underbarrel: '', 
         magazine: 'EXTENDED MAG I', 
         rearGrip: 'COMMANDO GRIP', 
         stock: 'INFILTRATOR STOCK', 
@@ -42,7 +42,7 @@ const Guns = [
       id: 3, 
       name: 'MXR-17', 
       type: 'Assault Rifle', 
-      image:'https://img.wzstats.gg/kilo-141-wzstats-def6e3/gunFullDisplay',
+      image:'https://i.ibb.co/s9FHZvMh/C-a-l-l-o-f-D-u-t-y.png',
       attachments: {
         optic: 'KEPLER MICROFLEX', 
         muzzle: 'COMPENSATOR', 
