@@ -59,7 +59,7 @@ const Guns = [
       id: 4, 
       name: 'X9 Maverick', 
       type: 'Assault Rifle', 
-      image:'https://img.wzstats.gg/xm4-wzstats-4442f0/gunFullDisplay',
+      image:'https://i.ibb.co/FbW9d9pj/x9.png',
       attachments: {
         optic: 'Lethal Tools ELO', 
         muzzle: 'COMPENSATOR', 
@@ -75,7 +75,7 @@ const Guns = [
       id: 5, 
       name: 'Maddox RFB', 
       type: 'Assault Rifle', 
-      image:'https://i.ibb.co/NgHXkKvB/maddox.png',
+      image:'https://i.ibb.co/1fphBC39/maddox.png',
       attachments: {
         optic: 'Lethal Tools ELO', 
         muzzle: 'Vas 5.56 Suppressor', 
@@ -252,7 +252,7 @@ const Guns = [
       id: 16,
       name: 'Echo 12', 
       type: 'Shotgun', 
-      image:'https://img.wzstats.gg/ppsh-41-wzstats-804aa6/gunFullDisplay',
+      image:'https://i.ibb.co/XZbFLnvk/echo.png',
       attachments: {
         optic: 'KEPLER MICROFLEX', 
         muzzle: 'COMPENSATOR', 
