@@ -138,6 +138,22 @@ const Guns = [
     },
     { 
       id: 9, 
+      name: 'Sturmwolf 45', 
+      type: 'SMG', 
+      image:'https://img.wzstats.gg/cypher-091-wzstats-87267e/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
+    { 
+      id: 10, 
       name: 'RK-9', 
       type: 'SMG', 
       image:'https://img.wzstats.gg/ak-74-wzstats-0ade1e/gunFullDisplay',
@@ -153,7 +169,7 @@ const Guns = [
       } 
     },
     { 
-      id: 10,
+      id: 11,
       name: 'Razor 9MM', 
       type: 'SMG',
       image:'https://img.wzstats.gg/gpr-91-wzstats-48be54/gunFullDisplay',
@@ -169,7 +185,7 @@ const Guns = [
       } 
     },
     { 
-      id: 11,
+      id: 12,
       name: 'Kogot-7', 
       type: 'SMG',
       image:'https://img.wzstats.gg/goblin-mk-2-wzstats-60af2f/gunFullDisplay',
@@ -185,7 +201,7 @@ const Guns = [
       } 
     },
     { 
-      id: 12,
+      id: 13,
       name: 'Dravec 45', 
       type: 'SMG', 
       image:'https://img.wzstats.gg/ksv-wzstats-890357/gunFullDisplay', 
@@ -201,7 +217,7 @@ const Guns = [
       } 
     },
     { 
-      id: 13,
+      id: 14,
       name: 'Carbon 57', 
       type: 'SMG', 
       image:'https://img.wzstats.gg/ladra-wzstats-9921c1/gunFullDisplay',
@@ -217,7 +233,7 @@ const Guns = [
       } 
     },
     { 
-      id: 14,
+      id: 15,
       name: 'MPC-25', 
       type: 'SMG', 
       image:'https://img.wzstats.gg/c9-wzstats-a63e4b/gunFullDisplay',
@@ -233,7 +249,7 @@ const Guns = [
       } 
     },
     { 
-      id: 15,
+      id: 16,
       name: 'M10 Breacher', 
       type: 'Shotgun', 
       image:'https://i.ibb.co/Cp0z2LSK/m10breach.png',
@@ -249,7 +265,7 @@ const Guns = [
       } 
     },
     { 
-      id: 16,
+      id: 17,
       name: 'Echo 12', 
       type: 'Shotgun', 
       image:'https://i.ibb.co/XZbFLnvk/echo.png',
@@ -265,7 +281,7 @@ const Guns = [
       } 
     },
     { 
-      id: 17,
+      id: 18,
       name: 'Akita', 
       type: 'Shotgun', 
       image:'https://i.ibb.co/0NXykJt/akita.png',
@@ -281,7 +297,7 @@ const Guns = [
       } 
     },
     { 
-      id: 18,
+      id: 19,
       name: 'MK.78', 
       type: 'LMG', 
       image:'https://img.wzstats.gg/tanto-22/gunFullDisplay',
@@ -297,7 +313,7 @@ const Guns = [
       } 
     },
     { 
-      id: 19,
+      id: 20,
       name: 'Sokol 545', 
       type: 'LMG', 
       image:'https://img.wzstats.gg/saug-wzstats-ea2c89/gunFullDisplay',
@@ -313,7 +329,7 @@ const Guns = [
       } 
     },
     { 
-      id: 20,
+      id: 21,
       name: 'XM325', 
       type: 'LMG', 
       image:'https://img.wzstats.gg/ak-74-wzstats-0ade1e/gunFullDisplay',
@@ -329,7 +345,7 @@ const Guns = [
       } 
     },
     { 
-      id: 21,
+      id: 22,
       name: 'M8A1', 
       type: 'Marksman Rifle', 
       image:'https://img.wzstats.gg/feng-82/gunFullDisplay',
@@ -345,7 +361,7 @@ const Guns = [
       } 
     },
     { 
-      id: 22,
+      id: 23,
       name: 'Warden 308', 
       type: 'Marksman Rifle', 
       image:'https://img.wzstats.gg/xmg-wzstats-608a6f/gunFullDisplay',
@@ -361,7 +377,7 @@ const Guns = [
       } 
     },
     { 
-      id: 23,
+      id: 24,
       name: 'M34 Novaline', 
       type: 'Marksman Rifle', 
       image:'https://img.wzstats.gg/pu-21/gunFullDisplay',
@@ -377,7 +393,7 @@ const Guns = [
       } 
     },
     { 
-      id: 24,
+      id: 25,
       name: 'VS Recon', 
       type: 'Sniper Rifle', 
       image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
@@ -393,7 +409,7 @@ const Guns = [
         } 
       },
       { 
-      id: 25,
+      id: 26,
       name: 'Shadow SK', 
       type: 'Sniper Rifle', 
       image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
@@ -409,7 +425,7 @@ const Guns = [
         } 
     },
     { 
-      id: 26,
+      id: 27,
       name: 'XR-3 Ion', 
       type: 'Sniper Rifle', 
       image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
