@@ -10,7 +10,7 @@ const Guns = [
       id: 1, 
       type: 'Assault Rifle', 
       name: 'M15 MOD O', 
-      image:'https://img.wzstats.gg/cr-56-amax-wzstats-aec746/gunFullDisplay',
+      image:'https://i.ibb.co/zh5Cvzbq/M15.png',
       attachments: {
         optic: 'Lethal Tools ELO', 
         muzzle: 'Redwell 5.56 Compensator', 
@@ -26,7 +26,7 @@ const Guns = [
       id: 2, 
       name: 'AK-27', 
       type: 'Assault Rifle', 
-      image:'https://img.wzstats.gg/krig-c/gunFullDisplay',
+      image:'https://i.ibb.co/q34CMkxH/ak27.png',
       attachments: {
         optic: 'Lethal Tools ELO', 
         muzzle: 'EMT3 Compensator', 
@@ -42,7 +42,7 @@ const Guns = [
       id: 3, 
       name: 'MXR-17', 
       type: 'Assault Rifle', 
-      image:'https://i.ibb.co/s9FHZvMh/C-a-l-l-o-f-D-u-t-y.png',
+      image:'https://i.ibb.co/Vc6KY0xc/mxr17.png',
       attachments: {
         optic: 'KEPLER MICROFLEX', 
         muzzle: 'Greaves TI-762', 
@@ -92,7 +92,7 @@ const Guns = [
       id: 6, 
       name: 'DS20 Mirage', 
       type: 'Assault Rifle', 
-      image:'https://img.wzstats.gg/as-val-wzstats-2c0cf9/gunFullDisplay',
+      image:'https://i.ibb.co/WN9yDbCw/ds20.png',
       attachments: {
         optic: 'Lethal Tools ELO', 
         muzzle: 'Redwell Shade-X Suppressor', 
@@ -108,7 +108,7 @@ const Guns = [
       id: 7, 
       name: 'Peacekeeper MK1', 
       type: 'Assault Rifle', 
-      image:'https://img.wzstats.gg/model-l-wzstats-4c6836/gunFullDisplay',
+      image:'https://i.ibb.co/60h1rz1y/peacekeeper.png',
       attachments: {
         optic: 'KEPLER MICROFLEX', 
         muzzle: 'COMPENSATOR', 
@@ -236,7 +236,7 @@ const Guns = [
       id: 15,
       name: 'M10 Breacher', 
       type: 'Shotgun', 
-      image:'https://img.wzstats.gg/jackal-pdw-wzstats-0bf541/gunFullDisplay',
+      image:'https://i.ibb.co/Cp0z2LSK/m10breach.png',
       attachments: {
         optic: 'KEPLER MICROFLEX', 
         muzzle: 'COMPENSATOR', 
@@ -268,7 +268,7 @@ const Guns = [
       id: 17,
       name: 'Akita', 
       type: 'Shotgun', 
-      image:'https://img.wzstats.gg/pp-919-wzstats-ebc054/gunFullDisplay',
+      image:'https://i.ibb.co/0NXykJt/akita.png',
       attachments: {
         optic: 'KEPLER MICROFLEX', 
         muzzle: 'COMPENSATOR', 
