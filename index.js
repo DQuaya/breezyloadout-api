@@ -12,14 +12,14 @@ const Guns = [
       name: 'M15 MOD O', 
       image:'https://img.wzstats.gg/cr-56-amax-wzstats-aec746/gunFullDisplay',
       attachments: {
-        optic: 'KEPLER MICROFLEX', 
-        muzzle: 'COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'VERTICAL FOREGRIP', 
-        magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
-        stock: 'INFILTRATOR STOCK', 
-        fireMods: 'RAPID FIRE'
+        optic: 'Lethal Tools ELO', 
+        muzzle: 'Redwell 5.56 Compensator', 
+        barrel: '20" Delta-F2 Barrel', 
+        underbarrel: 'Axis Shift Vertical Forgrip', 
+        magazine: 'Mayday Extended Mag', 
+        rearGrip: 'Hexcut Grip', 
+        stock: 'Wander-3v Stock', 
+        fireMods: 'MFS 5.56 NATO FMJ'
       }
     },
     { 
@@ -28,14 +28,14 @@ const Guns = [
       type: 'Assault Rifle', 
       image:'https://img.wzstats.gg/krig-c/gunFullDisplay',
       attachments: {
-        optic: 'KEPLER MICROFLEX', 
+        optic: 'Lethal Tools ELO', 
         muzzle: 'EMT3 Compensator', 
-        barrel: '14" Prism Light Barrel', 
-        underbarrel: '', 
-        magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
-        stock: 'INFILTRATOR STOCK', 
-        fireMods: 'RAPID FIRE'
+        barrel: '16.3 SWF Tumult Barrel', 
+        underbarrel: 'Ironhold Angled Grip', 
+        magazine: 'Epltaph Extended Mag', 
+        rearGrip: 'Garin Advanced Grip', 
+        stock: 'Caliban Light Stock', 
+        fireMods: 'Buffer Spring'
       }    
     },
     { 
@@ -45,13 +45,14 @@ const Guns = [
       image:'https://i.ibb.co/s9FHZvMh/C-a-l-l-o-f-D-u-t-y.png',
       attachments: {
         optic: 'KEPLER MICROFLEX', 
-        muzzle: 'COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'VERTICAL FOREGRIP', 
-        magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
-        stock: 'INFILTRATOR STOCK', 
-        fireMods: 'RAPID FIRE'
+        muzzle: 'Greaves TI-762', 
+        barrel: '15" Wralth Barrel', 
+        underbarrel: 'Lateral Precision Grip', 
+        magazine: 'Vault Extended Mag', 
+        rearGrip: 'Celerity Grip', 
+        stock: 'Galt-Lux Stock', 
+        laser:'1mW Instinct Laser Array',
+        fireMods: 'Recoil Springs'
       } 
     },
     { 
@@ -60,12 +61,12 @@ const Guns = [
       type: 'Assault Rifle', 
       image:'https://img.wzstats.gg/xm4-wzstats-4442f0/gunFullDisplay',
       attachments: {
-        optic: 'KEPLER MICROFLEX', 
+        optic: 'Lethal Tools ELO', 
         muzzle: 'COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'VERTICAL FOREGRIP', 
+        barrel: '16" OS-Density Barrel', 
+        underbarrel: 'Enhance-32 Handstop', 
         magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
+        rearGrip: 'Pillory Grip', 
         stock: 'INFILTRATOR STOCK', 
         fireMods: 'RAPID FIRE'
       } 
@@ -74,16 +75,17 @@ const Guns = [
       id: 5, 
       name: 'Maddox RFB', 
       type: 'Assault Rifle', 
-      image:'https://img.wzstats.gg/ames-85-wzstats-90be18/gunFullDisplay',
+      image:'https://i.ibb.co/NgHXkKvB/maddox.png',
       attachments: {
-        optic: 'KEPLER MICROFLEX', 
-        muzzle: 'COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'VERTICAL FOREGRIP', 
-        magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
-        stock: 'INFILTRATOR STOCK', 
-        fireMods: 'RAPID FIRE'
+        optic: 'Lethal Tools ELO', 
+        muzzle: 'Vas 5.56 Suppressor', 
+        barrel: '24" Assemblage Barrel', 
+        underbarrel: 'H-Lock FOREGRIP', 
+        magazine: 'null', 
+        rearGrip: 'Hallux Mix Girp', 
+        stock: 'Rout Stride Stock', 
+        laser:'3mW Motion Strike laser',
+        fireMods: 'Buffer Spring'
       } 
     },
     { 
@@ -92,14 +94,14 @@ const Guns = [
       type: 'Assault Rifle', 
       image:'https://img.wzstats.gg/as-val-wzstats-2c0cf9/gunFullDisplay',
       attachments: {
-        optic: 'KEPLER MICROFLEX', 
-        muzzle: 'COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'VERTICAL FOREGRIP', 
-        magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
+        optic: 'Lethal Tools ELO', 
+        muzzle: 'Redwell Shade-X Suppressor', 
+        barrel: '20" Rupture Barrel', 
+        underbarrel: 'Ironhold Angled Grip', 
+        magazine: 'Andean Extended Mag', 
+        rearGrip: 'Needletail Grip', 
         stock: 'INFILTRATOR STOCK', 
-        fireMods: 'RAPID FIRE'
+        fireMods: 'Recoil Springs'
       } 
     },
     { 
