@@ -300,7 +300,7 @@ const Guns = [
       id: 19,
       name: 'MK.78', 
       type: 'LMG', 
-      image:'https://img.wzstats.gg/tanto-22/gunFullDisplay',
+      image:'https://i.ibb.co/HDRfPwW1/C-a-l-l-o-f-D-u-t-y.png',
       attachments: {
         optic: 'LETHAL TOOL ELO', 
         muzzle: 'RL-7.62 COMPENSATOR', 
@@ -316,7 +316,7 @@ const Guns = [
       id: 20,
       name: 'Sokol 545', 
       type: 'LMG', 
-      image:'https://img.wzstats.gg/saug-wzstats-ea2c89/gunFullDisplay',
+      image:'https://i.ibb.co/JwXmmxHq/C-a-l-l-o-f-D-u-t-y.png',
       attachments: {
         optic: 'INSERT', 
         muzzle: 'EMT3 COMPENSATOR', 
@@ -332,7 +332,7 @@ const Guns = [
       id: 21,
       name: 'XM325', 
       type: 'LMG', 
-      image:'https://img.wzstats.gg/ak-74-wzstats-0ade1e/gunFullDisplay',
+      image:'https://i.ibb.co/5XyNN5RX/C-a-l-l-o-f-D-u-t-y.png',
       attachments: {
         optic: 'REDWELL 30-S 2X', 
         muzzle: 'INSERT', 
