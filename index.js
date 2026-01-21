@@ -348,7 +348,7 @@ const Guns = [
       id: 22,
       name: 'M8A1', 
       type: 'Marksman Rifle', 
-      image:'https://img.wzstats.gg/feng-82/gunFullDisplay',
+      image:'https://i.ibb.co/mFMQw9KP/C-a-l-l-o-f-D-u-t-y.png',
       attachments: {
         optic: 'PRISMATECH DIGITAL HOLD', 
         muzzle: 'TITAN-R 5.56 COMPENSATOR', 
@@ -364,7 +364,7 @@ const Guns = [
       id: 23,
       name: 'Warden 308', 
       type: 'Marksman Rifle', 
-      image:'https://img.wzstats.gg/xmg-wzstats-608a6f/gunFullDisplay',
+      image:'https://i.ibb.co/C34ZXwvW/C-a-l-l-o-f-D-u-t-y.png',
       attachments: {
         optic: 'REDWELL 30-S 2X', 
         muzzle: 'INSERT', 
@@ -380,7 +380,7 @@ const Guns = [
       id: 24,
       name: 'M34 Novaline', 
       type: 'Marksman Rifle', 
-      image:'https://img.wzstats.gg/pu-21/gunFullDisplay',
+      image:'https://i.ibb.co/FqfgN4NQ/C-a-l-l-o-f-D-u-t-y.png',
       attachments: {
         optic: 'KEPLER MICROFLEX', 
         muzzle: 'COMPENSATOR', 
@@ -412,7 +412,7 @@ const Guns = [
       id: 26,
       name: 'Shadow SK', 
       type: 'Sniper Rifle', 
-      image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
+      image:'https://i.ibb.co/8g6grwgv/C-a-l-l-o-f-D-u-t-y.png',
       attachments: {
         optic: 'KEPLER MICROFLEX', 
         muzzle: 'COMPENSATOR', 
