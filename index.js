@@ -441,6 +441,22 @@ const Guns = [
         fireMods: 'RAPID FIRE'
       } 
     },
+     { 
+      id: 27,
+      name: 'Hawker HX', 
+      type: 'Sniper Rifle', 
+      image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
+      attachments: {
+        optic: 'KEPLER MICROFLEX', 
+        muzzle: 'COMPENSATOR', 
+        barrel: 'REINFORCED BARREL', 
+        underbarrel: 'VERTICAL FOREGRIP', 
+        magazine: 'EXTENDED MAG I', 
+        rearGrip: 'COMMANDO GRIP', 
+        stock: 'INFILTRATOR STOCK', 
+        fireMods: 'RAPID FIRE'
+      } 
+    },
       
      
       
