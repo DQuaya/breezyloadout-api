@@ -29,13 +29,13 @@ const Guns = [
       image:'https://i.ibb.co/q34CMkxH/ak27.png',
       attachments: {
         optic: 'Lethal Tools ELO', 
-        muzzle: 'EMT3 Compensator', 
-        barrel: '16.3 SWF Tumult Barrel', 
-        underbarrel: 'Ironhold Angled Grip', 
+        muzzle: 'EMT3 Ported-70', 
+        barrel: '17" Bystro Speed Barrel', 
+        underbarrel: 'Lateral Precision Grip', 
         magazine: 'Epltaph Extended Mag', 
-        rearGrip: 'Garin Advanced Grip', 
-        stock: 'Caliban Light Stock', 
-        fireMods: 'Buffer Spring'
+        rearGrip: 'Dictum Light Grip', 
+        stock: 'Prodigal Skeleton Stock', 
+        fireMods: '7.62 Sovlet FMJ'
       }    
     },
     { 
@@ -62,13 +62,14 @@ const Guns = [
       image:'https://i.ibb.co/FbW9d9pj/x9.png',
       attachments: {
         optic: 'Lethal Tools ELO', 
-        muzzle: 'COMPENSATOR', 
-        barrel: '16" OS-Density Barrel', 
-        underbarrel: 'Enhance-32 Handstop', 
+        muzzle: 'Defense-H Suppressor', 
+        barrel: '19.5" Shroud Barrel', 
+        underbarrel: 'H-Lock Foregrip', 
         magazine: 'EXTENDED MAG I', 
-        rearGrip: 'Pillory Grip', 
-        stock: 'INFILTRATOR STOCK', 
-        fireMods: 'RAPID FIRE'
+        rearGrip: 'Daedalus Grip', 
+        stock: 'Strider Overstep Stock', 
+        laser:'3mW Motion Strike Laser',
+        fireMods: 'Buffer Spring'
       } 
     },
     { 
@@ -77,15 +78,15 @@ const Guns = [
       type: 'Assault Rifle', 
       image:'https://i.ibb.co/1fphBC39/maddox.png',
       attachments: {
-        optic: 'Lethal Tools ELO', 
-        muzzle: 'Vas 5.56 Suppressor', 
-        barrel: '24" Assemblage Barrel', 
-        underbarrel: 'H-Lock FOREGRIP', 
-        magazine: 'null', 
-        rearGrip: 'Hallux Mix Girp', 
-        stock: 'Rout Stride Stock', 
-        laser:'3mW Motion Strike laser',
-        fireMods: 'Buffer Spring'
+        optic: 'VAS MicroFlex', 
+        muzzle: 'Titan-R 5.56 Compensator', 
+        barrel: '15" Avlary Light Barrel', 
+        underbarrel: 'EAM Steady-90 Grip', 
+        magazine: 'Billing Extended Mag', 
+        rearGrip: 'VAS Spire Grip', 
+        stock: 'Voltaic Light Stock', 
+        laser:'null',
+        fireMods: '5.56 NATO Overpressured'
       } 
     },
     { 
@@ -94,14 +95,14 @@ const Guns = [
       type: 'Assault Rifle', 
       image:'https://i.ibb.co/WN9yDbCw/ds20.png',
       attachments: {
-        optic: 'Lethal Tools ELO', 
+        optic: 'VAS MicroFlex', 
         muzzle: 'Redwell Shade-X Suppressor', 
         barrel: '20" Rupture Barrel', 
         underbarrel: 'Ironhold Angled Grip', 
         magazine: 'Andean Extended Mag', 
         rearGrip: 'Needletail Grip', 
-        stock: 'INFILTRATOR STOCK', 
-        fireMods: 'Recoil Springs'
+        stock: 'Redwell Carrlon Stock', 
+        fireMods: 'Recoil Sync Unit'
       } 
     },
     { 
