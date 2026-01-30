@@ -111,14 +111,14 @@ const Guns = [
       type: 'Assault Rifle', 
       image:'https://i.ibb.co/60h1rz1y/peacekeeper.png',
       attachments: {
-        optic: '', 
-        muzzle: '', 
-        barrel: '', 
+        optic: 'Lethal Tools Elo', 
+        muzzle: 'Redwell Shade-X Suppressor', 
+        barrel: '23.5 Longbow Barrel', 
         underbarrel: '', 
         magazine: '', 
-        rearGrip: '', 
+        rearGrip: 'Rapid Lock', 
         stock: '', 
-        fireMods: ''
+        fireMods: 'Buffer Spring'
       } 
     },
     { 
@@ -141,7 +141,7 @@ const Guns = [
       id: 9, 
       name: 'Sturmwolf 45', 
       type: 'SMG', 
-      image:'https://img.wzstats.gg/cypher-091-wzstats-87267e/gunFullDisplay',
+      image:'https://i.ibb.co/MyZqCydw/swrr.png',
       attachments: {
         optic: '', 
         muzzle: 'Monolithic Suppressor', 
@@ -179,7 +179,7 @@ const Guns = [
         muzzle: 'HAWKER PORTED COMP', 
         barrel: '9" HERON BARREL', 
         underbarrel: 'EAM STEADY-90 GRIP', 
-        magazine: 'INSERT', 
+        magazine: '', 
         rearGrip: 'VICE GRIP', 
         stock: 'CONSTRICTO PAD', 
         fireMods: '9MM PARABELLUM OVERPRESSURED'
@@ -208,12 +208,12 @@ const Guns = [
       image:'https://i.ibb.co/393bwbF4/C-a-l-l-o-f-D-u-t-y-1-14-2026.png', 
       attachments: {
         optic: '', 
-        muzzle: '', 
-        barrel: '', 
+        muzzle: 'Bowen .45 Suppressor', 
+        barrel: '19" EAM Horizon Barrel', 
         underbarrel: '', 
-        magazine: '', 
+        magazine: 'Gator Extended Mah', 
         rearGrip: '', 
-        stock: '', 
+        stock: 'Serval Q-Step Stock', 
         fireMods: ''
       } 
     },
@@ -223,14 +223,15 @@ const Guns = [
       type: 'SMG', 
       image:'https://i.ibb.co/5g7bjHwp/C-a-l-l-o-f-D-u-t-y-1-14-2026.png',
       attachments: {
-        optic: '', 
-        muzzle: '', 
-        barrel: '', 
+        optic: 'Lethal Tools Elo', 
+        muzzle: 'Redwell Shade-X Suppressor', 
+        barrel: '14" Rockleigh Barrel', 
         underbarrel: '', 
         magazine: '', 
-        rearGrip: '', 
+        rearGrip: 'Bombus Quick Grip', 
         stock: '', 
-        fireMods: ''
+        laser:'LTI Swiftpoint Laser',
+        fireMods: 'Accelerated Recoil'
       } 
     },
     { 
@@ -404,14 +405,15 @@ const Guns = [
       type: 'Sniper Rifle', 
       image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
       attachments: {
-        optic: '', 
-        muzzle: '', 
-        barrel: '', 
-        underbarrel: '', 
-        magazine: '', 
-        rearGrip: '', 
-        stock: '', 
-        fireMods: ''
+        optic: 'null', 
+        muzzle: 'Graves A-762', 
+        barrel: '17" RistRauch Nimbus Barrel', 
+        underbarrel: 'MFS R-Stop Handguard', 
+        magazine: 'DashLine Speed Mag', 
+        rearGrip: 'R-1 Shelf Grip', 
+        stock: 'Stabil Heavy Pad', 
+        laser:'1mW Instinct Laser Array',
+        fireMods: 'Light Bolt'
         } 
       },
       { 
@@ -438,14 +440,15 @@ const Guns = [
       type: 'Sniper Rifle', 
       image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
       attachments: {
-        optic: '', 
-        muzzle: '', 
-        barrel: '', 
-        underbarrel: '', 
-        magazine: '', 
-        rearGrip: '', 
-        stock: '', 
-        fireMods: ''
+        optic: 'null', 
+        muzzle: 'Triptych Brake Muzzle', 
+        barrel: '15" Fringe Barrel', 
+        underbarrel: 'Zero-S Handguard', 
+        magazine: 'Overload Capacity Mag', 
+        rearGrip: 'L.T. Sling Grip', 
+        stock: 'Light Shield Stock', 
+        laser:'5mW Lockstep Laser',
+        fireMods: 'Quick Charge'
       } 
     },
      { 
@@ -454,14 +457,15 @@ const Guns = [
       type: 'Sniper Rifle', 
       image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
       attachments: {
-        optic: '', 
-        muzzle: '', 
-        barrel: '', 
-        underbarrel: '', 
-        magazine: '', 
-        rearGrip: '', 
-        stock: '', 
-        fireMods: ''
+        optic: 'null', 
+        muzzle: 'SWF Tishina-11', 
+        barrel: 'MFS 25" Votive Barrel', 
+        underbarrel: 'FlatTop Grip', 
+        magazine: 'Amrita Fast Mag', 
+        rearGrip: 'Auroral Light Grip', 
+        stock: 'Inflitrator Stock', 
+        laser:'1mW Instinct Laser Array',
+        fireMods: 'Light Bolt'
       } 
     },
       
