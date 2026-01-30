@@ -111,14 +111,14 @@ const Guns = [
       type: 'Assault Rifle', 
       image:'https://i.ibb.co/60h1rz1y/peacekeeper.png',
       attachments: {
-        optic: 'KEPLER MICROFLEX', 
-        muzzle: 'COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'VERTICAL FOREGRIP', 
-        magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
-        stock: 'INFILTRATOR STOCK', 
-        fireMods: 'RAPID FIRE'
+        optic: '', 
+        muzzle: '', 
+        barrel: '', 
+        underbarrel: '', 
+        magazine: '', 
+        rearGrip: '', 
+        stock: '', 
+        fireMods: ''
       } 
     },
     { 
@@ -143,14 +143,14 @@ const Guns = [
       type: 'SMG', 
       image:'https://img.wzstats.gg/cypher-091-wzstats-87267e/gunFullDisplay',
       attachments: {
-        optic: 'KEPLER MICROFLEX', 
-        muzzle: 'COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'VERTICAL FOREGRIP', 
-        magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
-        stock: 'INFILTRATOR STOCK', 
-        fireMods: 'RAPID FIRE'
+        optic: '', 
+        muzzle: 'Monolithic Suppressor', 
+        barrel: '11.5" LTI Ascendancy Barrel', 
+        underbarrel: 'Zero Shift Handstop', 
+        magazine: 'Extended Mag I', 
+        rearGrip: 'Selene Rover Grip', 
+        stock: 'Satellite Skeleton Stock', 
+        fireMods: '.45 Cal Overpressed'
       } 
     },
     { 
@@ -159,7 +159,7 @@ const Guns = [
       type: 'SMG', 
       image:'https://i.ibb.co/7ddsCXDW/C-a-l-l-o-f-D-u-t-y-1-14-2026.png',
       attachments: {
-        optic: 'null', 
+        optic: '', 
         muzzle: 'HAWKER HYBRID .45', 
         barrel: '8.7" EAM HOLLOW BARREL', 
         underbarrel: 'MFS IRONLUNG HANDSTOP', 
@@ -175,7 +175,7 @@ const Guns = [
       type: 'SMG',
       image:'https://i.ibb.co/pBGRcMS9/C-a-l-l-o-f-D-u-t-y-1-14-2026.png',
       attachments: {
-        optic: 'null', 
+        optic: '', 
         muzzle: 'HAWKER PORTED COMP', 
         barrel: '9" HERON BARREL', 
         underbarrel: 'EAM STEADY-90 GRIP', 
@@ -191,14 +191,14 @@ const Guns = [
       type: 'SMG',
       image:'https://i.ibb.co/sJ5SMF8p/C-a-l-l-o-f-D-u-t-y-1-14-2026.png',
       attachments: {
-        optic: 'KEPLER MICROFLEX', 
-        muzzle: 'COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'VERTICAL FOREGRIP', 
-        magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
-        stock: 'INFILTRATOR STOCK', 
-        fireMods: 'RAPID FIRE'
+        optic: '', 
+        muzzle: 'Monolithic Suppressor', 
+        barrel: '8.5" Targil Hock-XR Barrel', 
+        underbarrel: 'Vitalize Handstop', 
+        magazine: 'Fortune Extended Mag', 
+        rearGrip: 'Balter Control Grip', 
+        stock: 'F7-Howl Stock', 
+        fireMods: '9x21mm Overpressed'
       } 
     },
     { 
@@ -207,14 +207,14 @@ const Guns = [
       type: 'SMG', 
       image:'https://i.ibb.co/393bwbF4/C-a-l-l-o-f-D-u-t-y-1-14-2026.png', 
       attachments: {
-        optic: 'KEPLER MICROFLEX', 
-        muzzle: 'COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'VERTICAL FOREGRIP', 
-        magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
-        stock: 'INFILTRATOR STOCK', 
-        fireMods: 'RAPID FIRE'
+        optic: '', 
+        muzzle: '', 
+        barrel: '', 
+        underbarrel: '', 
+        magazine: '', 
+        rearGrip: '', 
+        stock: '', 
+        fireMods: ''
       } 
     },
     { 
@@ -223,14 +223,14 @@ const Guns = [
       type: 'SMG', 
       image:'https://i.ibb.co/5g7bjHwp/C-a-l-l-o-f-D-u-t-y-1-14-2026.png',
       attachments: {
-        optic: 'KEPLER MICROFLEX', 
-        muzzle: 'COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'VERTICAL FOREGRIP', 
-        magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
-        stock: 'INFILTRATOR STOCK', 
-        fireMods: 'RAPID FIRE'
+        optic: '', 
+        muzzle: '', 
+        barrel: '', 
+        underbarrel: '', 
+        magazine: '', 
+        rearGrip: '', 
+        stock: '', 
+        fireMods: ''
       } 
     },
     { 
@@ -239,14 +239,14 @@ const Guns = [
       type: 'SMG', 
       image:'https://i.ibb.co/cKnnznry/C-a-l-l-o-f-D-u-t-y-1-14-2026.png',
       attachments: {
-        optic: 'KEPLER MICROFLEX', 
-        muzzle: 'COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'VERTICAL FOREGRIP', 
-        magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
-        stock: 'INFILTRATOR STOCK', 
-        fireMods: 'RAPID FIRE'
+        optic: '', 
+        muzzle: 'Kahn Ported Comp', 
+        barrel: '8.6" MFS Stratus-X handstop', 
+        underbarrel: 'Zero Shift Handstop ', 
+        magazine: 'Sustain-25 Extended Mag', 
+        rearGrip: 'Photonic Adaptive Grip', 
+        stock: 'VAS Tactical Scale Stock', 
+        fireMods: '5.56x30mm Overpressed'
       } 
     },
     { 
@@ -260,9 +260,9 @@ const Guns = [
         barrel: '17.4" Redwell', 
         underbarrel: 'VERTICAL FOREGRIP', 
         magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
+        rearGrip: '', 
         stock: 'Collapsible Stock', 
-        fireMods: 'RAPID FIRE'
+        fireMods: ''
       } 
     },
     { 
@@ -305,13 +305,14 @@ const Guns = [
       image:'https://i.ibb.co/HDRfPwW1/C-a-l-l-o-f-D-u-t-y.png',
       attachments: {
         optic: 'LETHAL TOOL ELO', 
-        muzzle: 'RL-7.62 COMPENSATOR', 
-        barrel: '18.5" TiTAN HYBRID BARREL', 
-        underbarrel: 'INSERT', 
-        magazine: 'PAYLOAD BELT EXTENSION', 
-        rearGrip: 'INSERT', 
-        stock: 'INSERT', 
-        fireMods: 'ACCELERATED RECOIL SYSTEM'
+        muzzle: 'REDWELL SHADE-X SUPPRESSOR', 
+        barrel: '15" SKYLANCE BARREL', 
+        underbarrel: 'BOWEN SENTRY FOREGRIP', 
+        magazine: 'MFS HEATSHIELD BELT FED', 
+        rearGrip: 'TRAILBLAZE GRIP', 
+        stock: 'BOWEN LIGHT STOCK', 
+        laser: '1mW INSTINCT LASER ARRAY', 
+        fireMods: 'null'
       } 
     },
     { 
@@ -320,14 +321,15 @@ const Guns = [
       type: 'LMG', 
       image:'https://i.ibb.co/JwXmmxHq/C-a-l-l-o-f-D-u-t-y.png',
       attachments: {
-        optic: 'INSERT', 
-        muzzle: 'EMT3 COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'PARALLEL FOREGRIP', 
-        magazine: 'CLEPEN FAST MAG', 
-        rearGrip: 'SWF GARROTE GRIP', 
-        stock: 'ECHIDNA AIM STOCK', 
-        fireMods: 'INSERT'
+        optic: 'LETHAL TOOLS ELO', 
+        muzzle: 'SWF TISHINA-11', 
+        barrel: '16.8" FIXATIVE MIX BARREL', 
+        underbarrel: 'H-LOCK FOREGRIP', 
+        magazine: 'null', 
+        rearGrip: 'PYTHIAN-VI GRIP', 
+        stock: 'TACTION CONTROL STOCK', 
+          stock: '1mW INSTINCT LASER ARRAY',
+        fireMods: 'MFS 48-DREAD BURST MOD'
       } 
     },
     { 
@@ -337,12 +339,12 @@ const Guns = [
       image:'https://i.ibb.co/5XyNN5RX/C-a-l-l-o-f-D-u-t-y.png',
       attachments: {
         optic: 'LETHAL TOOLS ELO', 
-        muzzle: 'REDWELL SHADE-X SUPPRESSOR', 
-        barrel: '20" RIST-76 NOVA BARREL', 
-        underbarrel: 'LATERAL PRECISION GRIP', 
-        magazine: 'INSERT', 
-        rearGrip: 'INSERT', 
-        stock: 'INSERT', 
+        muzzle: 'RL-7.62 COMPENSATOR', 
+        barrel: '24" FRACTAL-LRB BARREL', 
+        underbarrel: 'SENTRY PRO HANDSTOP', 
+        magazine: 'ENFORCER EXTENDED BELT', 
+        rearGrip: 'ELYSIAN QUICK GRIP', 
+        stock: 'VG-0 Light STOCK', 
         fireMods: 'ACCELERATED RECOIL SYSTEM'
       } 
     },
@@ -368,15 +370,16 @@ const Guns = [
       type: 'Marksman Rifle', 
       image:'https://i.ibb.co/C34ZXwvW/C-a-l-l-o-f-D-u-t-y.png',
       attachments: {
-        optic: 'INSERT', 
-        muzzle: 'LTI-LM BRAKE', 
-        barrel: '16.2" ARTEMIS-01 BARREL', 
-        comb: 'LTI TRAIL-40 RISER', 
-        underbarrel: 'INSERT', 
-        magazine: 'INSERT', 
-        rearGrip: 'LTI TYRANNIS GRIP', 
-        stock: 'INSERT', 
-        fireMods: 'INSERT'
+        optic: 'null', 
+        muzzle: 'Monolithic Suppressor', 
+        barrel: '18" INVICTUS BARREL', 
+        comb: 'Static-907x Riser', 
+        underbarrel: 'null', 
+        laser: '5mW Lock Step Laser', 
+        magazine: 'null', 
+        rearGrip: 'LTI Tyrannis Grip', 
+        stock: 'FTAC HYBRID STOCK', 
+        fireMods: 'MFS SNAPTRIGGER'
       } 
     },
     { 
@@ -401,14 +404,14 @@ const Guns = [
       type: 'Sniper Rifle', 
       image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
       attachments: {
-        optic: 'KEPLER MICROFLEX', 
-        muzzle: 'COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'VERTICAL FOREGRIP', 
-        magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
-        stock: 'INFILTRATOR STOCK', 
-        fireMods: 'RAPID FIRE'
+        optic: '', 
+        muzzle: '', 
+        barrel: '', 
+        underbarrel: '', 
+        magazine: '', 
+        rearGrip: '', 
+        stock: '', 
+        fireMods: ''
         } 
       },
       { 
@@ -417,7 +420,7 @@ const Guns = [
       type: 'Sniper Rifle', 
       image:'https://i.ibb.co/8g6grwgv/C-a-l-l-o-f-D-u-t-y.png',
       attachments: {
-        optic: 'YOUR CHOICE', 
+        optic: 'null', 
         muzzle: 'SWF TISHINA-11', 
         barrel: '22.4" STRAND BARREL', 
         underbarrel: 'null', 
@@ -435,14 +438,14 @@ const Guns = [
       type: 'Sniper Rifle', 
       image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
       attachments: {
-        optic: 'KEPLER MICROFLEX', 
-        muzzle: 'COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'VERTICAL FOREGRIP', 
-        magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
-        stock: 'INFILTRATOR STOCK', 
-        fireMods: 'RAPID FIRE'
+        optic: '', 
+        muzzle: '', 
+        barrel: '', 
+        underbarrel: '', 
+        magazine: '', 
+        rearGrip: '', 
+        stock: '', 
+        fireMods: ''
       } 
     },
      { 
@@ -451,14 +454,14 @@ const Guns = [
       type: 'Sniper Rifle', 
       image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
       attachments: {
-        optic: 'KEPLER MICROFLEX', 
-        muzzle: 'COMPENSATOR', 
-        barrel: 'REINFORCED BARREL', 
-        underbarrel: 'VERTICAL FOREGRIP', 
-        magazine: 'EXTENDED MAG I', 
-        rearGrip: 'COMMANDO GRIP', 
-        stock: 'INFILTRATOR STOCK', 
-        fireMods: 'RAPID FIRE'
+        optic: '', 
+        muzzle: '', 
+        barrel: '', 
+        underbarrel: '', 
+        magazine: '', 
+        rearGrip: '', 
+        stock: '', 
+        fireMods: ''
       } 
     },
       
