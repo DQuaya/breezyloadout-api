@@ -403,7 +403,7 @@ const Guns = [
       id: 25,
       name: 'VS Recon', 
       type: 'Sniper Rifle', 
-      image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
+      image:'https://i.ibb.co/yc9jhsn7/C-a-l-l-o-f-D-u-t-y-1-30-2026-12-54-27-PM.png',
       attachments: {
         optic: 'null', 
         muzzle: 'Graves A-762', 
@@ -438,7 +438,7 @@ const Guns = [
       id: 27,
       name: 'XR-3 Ion', 
       type: 'Sniper Rifle', 
-      image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
+      image:'https://i.ibb.co/HTkRHcfY/C-a-l-l-o-f-D-u-t-y-1-30-2026-12-54-50-PM.png',
       attachments: {
         optic: 'null', 
         muzzle: 'Triptych Brake Muzzle', 
@@ -455,7 +455,7 @@ const Guns = [
       id: 27,
       name: 'Hawker HX', 
       type: 'Sniper Rifle', 
-      image:'https://img.wzstats.gg/gpmg-7/gunFullDisplay',
+      image:'https://i.ibb.co/jvbjqR7z/C-a-l-l-o-f-D-u-t-y-1-30-2026-12-55-15-PM.png',
       attachments: {
         optic: 'null', 
         muzzle: 'SWF Tishina-11', 
